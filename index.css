@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+
+body {
+  font-family: 'Calibri', sans-serif;
+}
+
+/* ----- Navigation Bar ----- */
+.logo-container, .nav-items{
+  display: flex;
+  list-style: none;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 13vh;
+  margin: auto;
+  align-items: center;
+  background-color: rgb(248,248,248);
+}
+
+/* ----- Logo Styling ----- */
+.logo-container {
+  flex: auto;
+  margin-left: 40px;
+  font-size:24px;
+}
+
+.logo {
+  color: black;
+  text-decoration: none;
+}
+
+/* ----- Navigation Items ----- */
+nav {
+  flex: auto;
+}
+
+.nav-items {
+  justify-content: space-around;
+}
+
+.nav-item {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+
+/* ----- Main Content */
+
+.presentation {
+  background-color: ;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.introduction {
+  flex: 1px;
+  padding-left: 45px;
+  text-align: left;
+}
+
+.intro-text h1 {
+  min-width: 500px;
+  outline-color: 0;
+  font-size: 64px;
+}
+
+.intro-text p {
+  margin-top: 3px;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.cover {
+  height: 60vh;
+}
+
+.cover img {
+  height: 100%;
+  padding-right: 45px;
+}
+
+@media (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .introduction {
+    text-align: center;
+  }
+}
