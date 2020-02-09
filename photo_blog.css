@@ -77,6 +77,9 @@ nav {
   text-decoration: none;
 }
 
+.nav-item:hover{
+  color: grey;
+}
 @media (max-width: 1024px) {
   .nav-item {
     font-size: 13px;
@@ -86,17 +89,28 @@ nav {
 }
 
 /*----- Gallery -----*/
-table {
-  margin: auto;
-}
-.gallery-container img {
-  width: 300px;
-  margin: 10px;
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items:baseline;
+  justify-content: center;
 }
 
-@media (max-width:900px) {
-  table {
-    display: block;
-    margin: 0;
-  }
+.img-details {
+  text-align: center;
+}
+
+.img-details p {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.thumbnail img{
+  width: 300px;
+  margin: 0px 20px 10px 20px;
+}
+
+img:hover{
+  opacity: 0.7;
+  transition: 0.1s;
 }
