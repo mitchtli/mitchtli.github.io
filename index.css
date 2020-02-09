@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Noto Sans HK', sans-serif;
-  background-image: url(/images/cover_photo.jpg)
 }
 
 p {
@@ -35,7 +34,7 @@ header {
   }
 }
 
-@@media (max-width: 496px) {
+@media (max-width: 496px) {
   header {
     display: none;
   }
