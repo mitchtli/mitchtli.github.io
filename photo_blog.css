@@ -3,14 +3,12 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box
+  background-color: rgb(248,248,248);
 }
 
 body {
-  font-family: 'Calibri', sans-serif;
-}
-
-h1 {
-  font-size: 64px;
+  font-family: 'Noto Sans HK', sans-serif;
+  background-image: url(/images/cover_photo.jpg)
 }
 
 p {
@@ -26,16 +24,22 @@ p {
 header {
   display: flex;
   width: 100%;
-  height: 13vh;
-  margin: auto;
+  height: 10vh;
+  margin-bottom: 50px;
   align-items: center;
-  background-color: rgb(248,248,248);
 }
 
 @media (max-width: 1024px) {
   header {
     height: 8vh;
   }
+}
+
+@@media (max-width: 496px) {
+  header {
+    display: none;
+  }
+
 }
 /* ----- Logo Styling ----- */
 .logo-container {
@@ -45,14 +49,14 @@ header {
 }
 
 .logo {
-  font-size: 52px;
+  font-size: 24px;
   color: black;
   text-decoration: none;
 }
 
 @media (max-width: 1024px) {
   .logo {
-    font-size: 36px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
   }
@@ -68,18 +72,31 @@ nav {
 }
 
 .nav-item {
-  font-size: 22px;
+  font-size: 16px;
   color: black;
   text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  .nav-item {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+  }
+}
 
-/* ----- Main Content */
-@media (max-width: 1024px){
-  .photo-intro {
-    width: auto;
-    font-size: 30px;
-    text-align: center;
-    margin: 10px;
+/*----- Gallery -----*/
+table {
+  margin: auto;
+}
+.gallery-container img {
+  width: 300px;
+  margin: 10px;
+}
+
+@media (max-width:900px) {
+  table {
+    display: block;
+    margin: 0;
   }
 }
