@@ -34,7 +34,7 @@ header {
   }
 }
 
-@@media (max-width: 496px) {
+@media (max-width: 496px) {
   header {
     display: none;
   }

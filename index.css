@@ -127,6 +127,16 @@ nav {
 }
 
 /* ----- Blog Preview -----*/
+.journal-recent {
+  background-color: rgb(240,240,240);
+}
+
+.journal-header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+  padding-left: 60px;
+}
 .img-area {
   display: flex;
   flex-wrap: wrap;
@@ -151,26 +161,4 @@ nav {
 .thumbnail img:hover{
   opacity: 0.7;
   transition: 0.1s;
-}
-/* ----- Trying things out -----*/
-/* ----- Main Content ----*/
-.middle {
-  background-color: blue;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.preface-text {
-  display: none;
-  margin-left: 60px
-}
-
-.story-photos img{
-  max-width: 624px;
-  margin-top: 30px;
-  flex: 100px;
-  width: 50%;
 }
