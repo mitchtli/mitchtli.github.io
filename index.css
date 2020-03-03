@@ -135,7 +135,7 @@ nav {
 
 .journal-header {
   font-size: 40px;
-  margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 30px;
   text-align: left;
   margin-left: 60px;
@@ -157,7 +157,7 @@ nav {
   margin-bottom: 30px;
 }
 .thumbnail img{
-  width: 350px;
+  width: 280px;
   margin: 0px 20px 10px 20px;
 }
 
@@ -166,9 +166,12 @@ nav {
   transition: 0.1s;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1020px) {
   .img-area {
     flex-direction: column;
     align-items: center;
+  }
+  .thumbnail img {
+    width: 400px;
   }
 }

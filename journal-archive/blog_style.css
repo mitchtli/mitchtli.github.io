@@ -88,7 +88,7 @@ nav {
 }
 
 /* ----- Blog! -----*/
-.blog-post .image-header{
+.image-header{
   display: flex;
   justify-content: center;
 }
@@ -110,5 +110,7 @@ nav {
   font-weight: normal;
 }
 .blog-content p {
-  display: block;
+  display: flex;
+  justify-content: center;
+  margin: 1px 30vh 0 30vh;
 }
