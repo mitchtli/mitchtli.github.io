@@ -87,6 +87,27 @@ nav {
   }
 }
 
+/* ----- Footer Items ----- */
+footer{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-logos a{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.fa-linkedin-square,.fa-youtube-play {
+  color: black;
+}
+
+#ps-statement {
+  font-size: 12px;
+}
+
 /*----- Gallery -----*/
 .img-area {
   display: flex;
