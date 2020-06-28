@@ -153,11 +153,10 @@ footer{
 }
 
 .journal-header {
-  font-size: 40px;
+  font-size: 24px;
   padding-top: 0px;
-  padding-bottom: 0px;
-  text-align: left;
-  margin-left: 60px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .img-area {
   display: flex;
