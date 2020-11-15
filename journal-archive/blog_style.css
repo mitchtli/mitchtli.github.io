@@ -136,13 +136,12 @@ footer{
   margin: 1px 30vh 50px 30vh;
 }
 
-@media (max-width: 750px) {
+@media only screen (max-width: 1020px) {
   .image-header img{
     max-width: 500px;
   }
   .blog-content p {
     margin: 0 0 0 0;
-    display: block;
     text-align: center;
   }
 
